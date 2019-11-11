@@ -1,0 +1,24 @@
+body{
+	font-family: 'Meiryo UI', cursive;
+	margin:auto 0;
+    padding:auto 0;
+}
+
+
+
+.MainWrapper{
+    
+}
+
+.MainWrapper iframe{
+    padding: 0;
+    margin: 0;
+    border: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: block;
+}
+
+
+

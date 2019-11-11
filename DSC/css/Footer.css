@@ -1,0 +1,17 @@
+html{
+}
+
+body{
+	font-family: 'Meiryo UI', cursive;
+	margin:0;
+}
+
+.FooterWrapper{
+	height:30px;
+    width: 100%;  
+}
+.Footer{
+    text-align: center; 
+}
+
+
