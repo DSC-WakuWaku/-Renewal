@@ -6,15 +6,56 @@ body{
 	margin:0;
     background-color: #0f4c81;
     color: white;
+    height:40%;
+    width:100%;
 }
 
 .FooterWrapper{
-	height:100px;
-    width: 100%;  
+    display: inline-block;
 }
+
 .Footer{
+    font-size: 26px;
+}
+
+.FooterMenu ul{
+    margin: 0; 
+    padding: 0;
     text-align: center;
-    margin: 40px;
+}
+
+.FooterMenu li{
+    margin: 8px 30px 0 5px;;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: white;
+    font-weight:bold;
+    font-size: 15px;
+    text-align: left;
+}
+
+.FooterSubMenu ul{
+    margin: 0; 
+    padding: 0;
+    text-align: center;
+}
+
+.FooterSubMenu li{
+    margin: 8px 25px 5px 5px;;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: white;
+    font-weight:bold;
+    font-size: 13px;
+    text-align: left;
+}
+.FooterTitle{
+    text-align: center;
+    margin: 180px 0 0 0;
 }
 
 
