@@ -1,10 +1,18 @@
 html{
     margin: 0;
     padding: 0;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+    display:none;
 }
 
 body{
 	font-family: 'Meiryo UI', cursive;
+
 }
 
 *{
@@ -14,6 +22,8 @@ body{
 }
 
 .HeaderWrapper{
+    padding: 0;
+    margin: 0; 
 }
 
 .HeaderWrapper iframe{
@@ -24,116 +34,125 @@ body{
     height: 60px;
     position: fixed;
     display: block;
+    background-color: #0f4c81;
+    filter:alpha(opacity=90);
+    -moz-opacity: 0.9;
+    opacity: 0.9; 
+
 }
 
 .MainWrapper {
     border: none;
-    margin: 0;
+
 }
 
 .TopContents video{
+    margin: 75px 0 0 0;
     width: 100%;
     height: 50%;
     object-fit: contain;
 }
 
-.Msg{
-    font-size: 24px;
-    text-align: center;
-}
-
-.Msg2{
-    font-size: 20px;
-    text-align: center;
-    margin: 0 0 100px 0;
-}
-
-.TopContents img {
-    width: 100%;
-    height: 530px;
-    object-fit: cover; 
-}
-
 .AboutContents{
-    margin: 0 0 100px 0;
+    margin: 100px 0 0 0;
 }
 
 .AboutTitle{
     margin: 0 2%;
-    font-size: 24px;
+    font-size: 28px;
     width: 45%;
-    height: 100px;
+    height: 120px;
     float: right;
 }
 
 .ImgAbout{
     width: 50%;
     height: 700px;
-    object-fit: fill;
+    object-fit: cover;
     float: left;
 }
 
 .MsgAbout{
     margin: 0 2%;
     width: 45%;
-    height: 600px;
+    height: 300px;
     float: right;
     font-size: 20px;
 }
 
-.WorkContents{ 
-    margin: 0 0 100px 0;
+.ConAbout{
+    margin: 0 2%;
+    width: 45%;
+    height: 280px;
+    float: right;
+}
+
+.WorkContents{
+    margin: 0;
 }
 
 .WorkTitle{
     margin: 0 2%;
-    font-size: 24px;
+    font-size: 28px;
     width: 45%;
-    height: 100px;
+    height: 120px;
     float: left;
 }
 
-.WorkContents img{
+.ImgWork{
     width: 50%;
     height: 700px;
-    object-fit: fill;
+    object-fit: cover;
     float: right;
 }
 
 .MsgWork{
     margin: 0 2%;
     width: 45%;
-    height: 600px;
+    height: 300px;
     float: left;
     font-size: 20px;
 }
 
+.ConWork{
+    margin: 0;
+    width: 45%;
+    height: 280px;
+    float: left; 
+}
+
 .RecruitContents{
-    margin: 0 0 100px 0;
+    margin: 150px 0 0 0;
 }
 
 .RecruitTitle{
     margin: 0 2%;
-    font-size: 24px;
+    font-size:28px;
     width: 45%;
-    height: 100px;
+    height: 120px;
     float: right;
-    font-size:20px;
 }
 
 .RecruitContents img {
     width: 50%;
     height: 700px;
-    object-fit: fill;
+    object-fit: cover;
     float: left;
 }
 
 .MsgRecruit{
     margin: 0 2%;
     width: 45%;
-    height: 600px;
+    height: 300px;
     float: right;
     font-size: 20px;
+}
+
+.ConRecruit{
+    margin: 0 2%;
+    width: 45%;
+    height: 280px;
+    float: right;
 }
 
 .FooterWrapper{
@@ -141,9 +160,56 @@ body{
 
 .FooterWrapper iframe{
     width: 100%;
-    height: 30px;
+    height: 100px;
     padding: 0;
-    margin: 30px 0 30px 0;
+    margin: 40px 0 0 0;
     border: none;
+    background-color: #0f4c81;
+    filter:alpha(opacity=90);
+    -moz-opacity: 0.9;
+    opacity: 0.9;  
+}
+ 
+.bt-About, .bt-Recruit{
+    margin: 0 5% 0 0;
+    display: inline-block;
+    text-decoration: none;
+    height:35px;
+    width: 120px;
+    line-height: 37px;
+    text-align: center;
+    color: #0f4c81;
+    border:solid 1px #0f4c81;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
 }
 
+.bt-About:hover, .bt-Recruit:hover{
+    background: #0f4c81;
+    color: #fff;
+}
+
+.bt-Work{
+    margin: 0 5% 0 0;
+    display: inline-block;
+    text-decoration: none;
+    height:35px;
+    width: 120px;
+    line-height: 37px;
+    text-align: center;
+    color: #0f4c81;
+    border:solid 1px #0f4c81;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.bt-Work:hover{
+    background: #0f4c81;
+    color: #fff;
+}
