@@ -115,14 +115,10 @@ body{
 }
 
 .ConWork{
-    margin: 0;
+    margin: 0 2%;
     width: 45%;
     height: 280px;
     float: left; 
-}
-
-.RecruitContents{
-    margin: 150px 0 0 0;
 }
 
 .RecruitTitle{
@@ -170,7 +166,7 @@ body{
     opacity: 0.9;  
 }
  
-.bt-About, .bt-Recruit{
+.bt-About, .bt-Work, .bt-Recruit{
     margin: 0 5% 0 0;
     display: inline-block;
     text-decoration: none;
@@ -187,29 +183,7 @@ body{
     transition: 0.3s;
 }
 
-.bt-About:hover, .bt-Recruit:hover{
-    background: #0f4c81;
-    color: #fff;
-}
-
-.bt-Work{
-    margin: 0 5% 0 0;
-    display: inline-block;
-    text-decoration: none;
-    height:35px;
-    width: 120px;
-    line-height: 37px;
-    text-align: center;
-    color: #0f4c81;
-    border:solid 1px #0f4c81;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -o-transition: 0.3s;
-    -ms-transition: 0.3s;
-    transition: 0.3s;
-}
-
-.bt-Work:hover{
+.bt-About:hover, .bt-Work:hover, .bt-Recruit:hover{
     background: #0f4c81;
     color: #fff;
 }
