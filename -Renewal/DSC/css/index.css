@@ -1,0 +1,142 @@
+body{
+	font-family: 'Meiryo UI', cursive;
+    padding: 0;
+    margin: 0;
+    border: none;
+
+}
+
+.HeaderWrapper{
+    background-color: #0f4c81;
+    height: 200px;
+}
+
+.Logo{
+	font-family: 'Comic Sans MS', cursive;
+	font-size: 18px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 60%;
+    float: left;
+    height:40px;
+}
+
+.Logo img{
+    margin: 0 20px;
+    padding: 3px; 
+    object-fit: cover;
+    width: 90px;
+    height: auto;
+}
+
+.Logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.Logo h1{
+    margin: 0;
+    padding: 5px 20px;
+}
+
+
+.Menu{
+    display: inline-block;
+    width:40%;
+    height: 40px;
+    font-size: 16px;
+}
+
+.Menu ul{
+    margin: 0; 
+    padding: 0;
+    text-align: right;
+    
+}
+
+.Menu li{
+    margin: 8px 30px 0 5px;;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: white;
+    font-weight:bold;
+
+}
+
+.Menu a:hover{
+    border-bottom: 2px  white  solid;
+    color:white;
+    font-size: 16px;
+}
+
+
+
+.MainWrapper iframe{
+    width: 100%;
+    height: 2500px;
+    border: none;
+}
+
+
+.FooterWrapper{
+    background-color: #0f4c81;
+    width: 100%;
+    height: 200px;
+    border: none;
+}
+
+.FooterMenu_Logo{
+    width: 40%;
+    color: white;
+    float: left;
+}
+
+.FooterMenu_Logo ul{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background-color: #0f4c81;  
+}
+
+.FooterMenu_AboutDSC, .FooterMenu_Work, .FooterMenu_Recruit, .FooterMenu_FAQ{
+    width: 60%;
+    color: white;
+    margin: 0 0 0 40%;
+    font-weight:bold;
+    font-size: 13px;
+    float: right;
+}
+
+.FooterMenu_AboutDSC ul, .FooterMenu_Work ul, .FooterMenu_Recruit ul, .FooterMenu_FAQ ul{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background-color: #0f4c81;
+}
+
+.FooterMenu_AboutDSC li, .FooterMenu_Work li, .FooterMenu_Recruit li, .FooterMenu_FAQ li{
+    width: 100%;
+    height: 25px;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+}
+
+.FooterMenu_AboutDSC a:hover, .FooterMenu_Work a:hover, .FooterMenu_Recruit a:hover, .FooterMenu_FAQ a:hover{
+    border-bottom: 2px  white  solid;
+    color:white;
+}
+
+.FooterTitle{
+    text-align: center;
+    background-color: #0f4c81;
+    color: white;
+}
+
+
+
+
+
